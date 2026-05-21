@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    background: white 90%;
+    /*background: gold;*/ /*Will use this as text*/
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+ul li{
+    float: left;
+}
+ul li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 4px 20px;
+}
+#Image_Holder{
+    width: 100px;
+    height: 100px;
+    /*max-width: 100px;*/
+    /*height: auto;*/
+    /*border-radius: 8px;*/
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+#About{
+    align-content: center;
+    background: black;
+    width: 100%;
+    height: fit-content;
+    font-size: 2rem;
+    color: gold;
+}
+#About:hover{
+    color: #f6e693;
+    transition: color 0.3s ease;
+}
